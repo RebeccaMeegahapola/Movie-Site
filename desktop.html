@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="desktop.js"></script> 
+    <title>Overseas Projects</title>
+    <script>
+        function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("First Name must be filled out");
+        return false;
+    }
+
+    let y = document.forms["myForm"]["lname"].value;
+    if (y == "") {
+        alert("Last Name must be filled out");
+        return false;
+    }
+
+    let z = document.forms["myForm"]["email"].value;
+    if (z == "") {
+        alert("Email must be filled out");
+        return false;
+    }   
+}
+    </script>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <img src="./Assets/Logos/Logo White.svg" class="image01">    
+        <a href="#bar"><i class="fa fa-bars"></i></a>
+        <a href="#location" class="location">LOCATION & CONTACT</a>
+        <a href="#movie" class="movie">MOVIE LIBRARY</a>
+        <a href="#schedule">SCHEDULE</a>
+        <a href="#screen">OUR SCREENS</a>
+        <a href="#home">HOME</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div>
+        <img src="./Assets/Images/Header Image 1.jpg" class="bg">
+    </div>
+    <div class="div1">
+        <h1 class="heading1">MOVIE LIBRARY</h1>
+        <p class="para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, <br>
+        sed diam nonumy eirmod tempor invidunt ut labore et <br>
+        dolore magna aliquyam erat, sed diam voluptua.</p>
+    </div>
+    <div class="div2">
+        
+        <div class="row01">
+            <div class="column01">
+                <p class="text1">Collect your favourites</p>
+            </div>
+            <div class="input-container column01">
+                <img src="./Assets/Icons/Search White.svg" class="icon"/>
+                <input type="text" placeholder="Search title and add to grid" class="input-field">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="./Assets/Images/Batman.jpg" class="img1">
+                <div class="div5">
+                    <p class="topic">Batman Returns</p>
+                    <p class="cont1">Lorem ipsum dolor sit amet,
+                    consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut...</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="./Assets/Images/Wild West.jpg" class="img1">
+                <div class="div5">
+                    <p class="topic">Wild Wild West</p>
+                    <p class="cont1">Lorem ipsum dolor sit amet,
+                    consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut...</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="./Assets/Images/Spiderman.jpg" class="img1">
+                <div class="div5">
+                    <p class="topic">The Amazing Spiderman</p>
+                    <p class="cont1">Lorem ipsum dolor sit amet,
+                    consetetur sadipscing elitr, sed diam
+                    nonumy eirmod tempor invidunt ut...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row2 div6">
+        <div class="column2">
+            <form class="div7">
+                <h2 class="topic1">How to reach us</h2>
+                <p class="cont2">Lorem ipsum dolor sit amet, consetetur.</p>
+                
+                <div class="div8">  
+                    <label for="fname" class="label1">First Name *</label>
+                    <label for="lname" class="label1">Last Name *</label>
+                </div>
+                <div class="div9">  
+                    <input type="text" name="ftname" class="text2" required /> 
+                    <input type="text" name="ftname" class="text2" required /> 
+                </div>
+                <label for="email" class="label1">Email *</label><br>
+                <input type="text" name="ftname" class="text3" required /> 
+                <br>
+                <label for="tele" class="label1">Telephone</label><br>
+                <input type="text" name="ftname" class="text3" required /> 
+                <br>
+                <label for="message" class="label1">Message</label><br>
+                <input type="text" name="ftname" class="text4" required /> 
+                <br>
+                <p class="cont3">* required fields</p>
+                <br>
+                <input type="checkbox" id="check" name="ckeck" value="" class="checkbox">
+                <label for="check" class="label">I agree to the <span class="terms">Terms & Conditions</span></label><br><br>
+                <button type="button" class="submit">Submit</button>
+            </form>
+        </div>
+        <div class="column2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48588.133010545425!2d-3.7152472!3d40.4363503!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f35d4f0c269%3A0x754405946e8ca584!2sAmadeus%20IT%20Group!5e0!3m2!1sen!2slk!4v1661059186744!5m2!1sen!2slk" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+
+    <div class="rowfooter">
+        <div class="columnfooter">
+            <div>
+                <pre class="address">Amadeus IT Group</pre>
+                <pre class="address1">
+                    C. Salvador de Madariaga, 1
+                    28027 Madrid
+                    Spain
+                </pre>
+            </div>
+        </div>
+        <div class="columnfooter">
+            <div class="div11">
+                <pre class="cont4">Follow us on</pre>
+                <div>
+                    <img src="./Assets/Icons/Twitter White.svg" class="twitter">
+                    <img src="./Assets//Icons/Youtube White.svg">
+                </div>
+            </div>
+        </div>
+      </div>
+    <div class="row1">
+        <div class="column">
+            <pre class="footer">Copyright © 2022 Amadeus Hotels. All rights reserved.</pre>
+        </div>
+        <div class="column">
+            <pre class="footer">Photos by <span class="underline">Felix Mooneeram</span> & <span class="underline">Serge Kutuzov</span>on <span class="underline">Unsplash</span></pre>
+        </div>
+    </div>
+</body>
+</html>
